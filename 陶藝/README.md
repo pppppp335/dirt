@@ -37,10 +37,10 @@ git push -u origin main
 
 ## Render 部署
 
-1. 登入 Render，選 **New → Static Site**，連接剛推送的 GitHub repository。
-2. Branch 選 `main`；Build Command 留空；Publish Directory 填 `.`。
+1. 登入 Render，選 **New → Static Site**，連接 `pppppp335/dirt` repository。
+2. Branch 選 `main`；Root Directory 填 `陶藝`；Build Command 留空；Publish Directory 填 `.`。
 3. 按 **Create Static Site**。每次推送到 `main` 後，Render 會重新發布。
-4. 網站使用單頁錨點（例如 `/#gallery`），沒有前端路由，無須新增 SPA rewrite 規則。
+4. 網站使用單頁錨點（例如 `/#gallery`），沒有前端路由，無須新增 SPA rewrite 規則。若不設定 Root Directory，則將 Publish Directory 填 `陶藝`。
 
 ## 原型互動
 
